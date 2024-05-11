@@ -1,6 +1,6 @@
-import Budget from './header_components/Budget';
+import Budget from './Budget';
 import Remaining from './header_components/Remaining';
-import ExpenseTotal from './header_components/ExpenseTotal';
+import ExpenseTotal from './ExpenseTotal';
 import Currency from './header_components/Currency';
 
 const HeaderBar = () => {
