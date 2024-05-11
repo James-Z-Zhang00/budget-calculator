@@ -17,4 +17,5 @@ I fixed the warning windows bug to display appropriate message according to the 
 
 ## Screenshot
 
-<img width="1167" alt="Screen Shot 2024-05-10 at 11 24 40 PM" src="https://github.com/James-Z-Zhang00/budget-calculator/assets/144994336/c28d6374-7fcf-4850-a3e5-1d7c1421a02d">
+<img width="1203" alt="Screen Shot 2024-05-10 at 11 31 41 PM" src="https://github.com/James-Z-Zhang00/budget-calculator/assets/144994336/12e4d5bc-e8c0-40a3-8866-771f0e700064">
+
