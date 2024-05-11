@@ -22,7 +22,7 @@ const Currency = () => {
           onChange={(event) => changeLocation(event.target.value)}
         >
         
-          <option value="£">£ Pound</option>
+
           <option value="$">$ Dollar</option>
           <option value="€">€ Euro</option>
           <option value="₹">₹ Ruppee</option>
