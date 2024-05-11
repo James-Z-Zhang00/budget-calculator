@@ -6,7 +6,7 @@ This project based on IBM open source project: https://github.com/ibm-developer-
 
 I fixed the warning windows bug to display appropriate message according to the error and reinforced currency switching system.
 
-*To run on local machine, run in termial: `npm install create-react-app` then `npm start`*
+*To run on local machines, terminal enter: `npm install create-react-app` then `npm start`*
 
 ## Tech Stack
 
