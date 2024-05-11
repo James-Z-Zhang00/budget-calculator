@@ -15,4 +15,6 @@ I fixed the warning windows bug to display appropriate message according to the 
 - Lock the allocation form that only accepts numbers for the amount of money
 - Change currency used for the budget calculation by a drop down menu the change will be applied everywhere on the page
 
-  ## Screenshot
+## Screenshot
+
+<img width="1167" alt="Screen Shot 2024-05-10 at 11 24 40 PM" src="https://github.com/James-Z-Zhang00/budget-calculator/assets/144994336/c28d6374-7fcf-4850-a3e5-1d7c1421a02d">
