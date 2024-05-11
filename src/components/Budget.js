@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { AppContext  } from '../context/AppContext';
 
 const Budget = () => {
-    const { dispatch, remaining ,currency} = useContext(AppContext);
+    const { dispatch ,currency} = useContext(AppContext);
     const { budget } = useContext(AppContext);
     const [newBudget, setNewBudget] = useState(budget);
     const upperLimitValue = 20000
