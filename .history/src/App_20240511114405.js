@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { AppProvider } from './context/AppContext';
 import HeaderBar from './components/HeaderBar';
 import MainBody from './components/MainBody';
-import FooterBar from './components/FooterBar';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -11,7 +11,7 @@ const App = () => {
             <div className='container'>
                 <HeaderBar />
                 <MainBody />
-                <FooterBar />
+                <>
             </div>
         </AppProvider>
     );

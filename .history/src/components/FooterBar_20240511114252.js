@@ -1,0 +1,1 @@
+import AllocationForm from './components/AllocationForm';
