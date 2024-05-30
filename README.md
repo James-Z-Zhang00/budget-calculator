@@ -55,3 +55,26 @@ const App = () => {
 
 export default App;
 ```
+
+File hierarchy
+
+
+
+## Data Processing
+
+Data was simply saved by `useContext` and `appContext`
+
+`Provider` was used to pass data to components
+
+```javascript
+return (
+        <AppContext.Provider
+            value={{
+                expenses: state.expenses,
+                budget: state.budget,
+                remaining: remaining,
+                dispatch,
+                currency: state.currency
+            }}
+        >
+```
