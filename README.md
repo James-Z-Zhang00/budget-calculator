@@ -58,7 +58,7 @@ export default App;
 
 File hierarchy
 
-
+<img width="244" alt="Screen Shot 2024-05-30 at 7 27 38 PM" src="https://github.com/James-Z-Zhang00/budget-calculator/assets/144994336/39022566-e5da-44bd-b657-9dddc2eedbf8">
 
 ## Data Processing
 
