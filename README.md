@@ -78,3 +78,15 @@ return (
             }}
         >
 ```
+
+## Data Updating
+
+Data will be live updated as user interact with the app, to achieve this, I parse data from useContext and then use `.map()` to update values of listed items.
+
+```javascript
+const { expenses } = useContext(AppContext);
+...
+{expenses.map((expense) => (
+    <ExpenseItem id={expense.id} key={expense.id} name={expense.name} cost={expense.cost} />
+))}
+```
