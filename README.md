@@ -26,3 +26,32 @@ I fixed the warning windows bug to display appropriate message according to the 
 
 <img width="1203" alt="Screen Shot 2024-05-10 at 11 31 41 PM" src="https://github.com/James-Z-Zhang00/budget-calculator/assets/144994336/12e4d5bc-e8c0-40a3-8866-771f0e700064">
 
+## Program Structure
+
+The app was made by 3 main parts:
+- HeaderBar
+- MainBody
+- FooterBar
+
+```javascript
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { AppProvider } from './context/AppContext';
+import HeaderBar from './components/HeaderBar';
+import MainBody from './components/MainBody';
+import FooterBar from './components/FooterBar';
+
+const App = () => {
+    return (
+        <AppProvider>
+            <div className='container'>
+                <HeaderBar />
+                <MainBody />
+                <FooterBar />
+            </div>
+        </AppProvider>
+    );
+};
+
+export default App;
+```
