@@ -93,6 +93,6 @@ const { expenses } = useContext(AppContext);
 
 <details>
     <summary>Click Me!</summary>
-    ## I'm the hidden title
+    <h2>I'm the hidden title</h2>
     I'm the hiding information
 </details>
