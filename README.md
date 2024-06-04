@@ -90,3 +90,9 @@ const { expenses } = useContext(AppContext);
     <ExpenseItem id={expense.id} key={expense.id} name={expense.name} cost={expense.cost} />
 ))}
 ```
+
+<details>
+    <summary>Click Me!</summary>
+    ## I'm the hidden title
+    I'm the hiding information
+</details>
